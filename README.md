@@ -23,3 +23,7 @@ To rebuild the graph, try running:
     dot -Tpng concept_map.gv -o concept_map.png
 
 If you make changes to the concept map, please commit the updated graphviz document and output.
+
+## Rabble Rouser logos
+
+For now, logos live here too. There's a transparent `.png` which should cover most of your needs. If you need something else, there's a GIMP `.xcf` file that you can play with. 
