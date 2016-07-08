@@ -22,4 +22,4 @@ To rebuild the graph, try running:
 
     dot -Tpng concept_map.gv -o concept_map.png
 
-Please commit the updated concept map and output.
+If you make changes to the concept map, please commit the updated graphviz document and output.
