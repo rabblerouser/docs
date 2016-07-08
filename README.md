@@ -16,7 +16,7 @@ To update the concept map, you'll need [Graphviz](http://www.graphviz.org/) inst
 
     member -> organisation [label=" joins "]
 
-Formatting graphs in graphviz is a bit painful, so concepts are nodes, and the edge between them is the relationship.
+Formatting graphs using graphviz can be bit painful, so to keep it simple, concepts are nodes linked with an arror `->`, and we name the edge that represents the relationship with a label `[label=" some label "]` (with a space on either side of the label text to ensure the output is a bit more legible).
 
 To rebuild the graph, try running:
 
