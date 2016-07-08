@@ -6,11 +6,11 @@ Documents that should live in here include anything related to overall architect
 
 ## Rabble Rouser Domain Concepts
 
-This is one attempt to document Rabble Rouser's domain language. We're using a tool called [concept maps](http://cmap.ihmc.us/docs/theory-of-concept-maps). Concept maps only document the language we use, they are not meant to describe behaviour of a system.
+This is one attempt to document Rabble Rouser's domain language. We're using a tool called [concept maps](http://cmap.ihmc.us/docs/theory-of-concept-maps). Concept maps only document the language we use and the relationship between concepts, they are not meant to describe behaviour of a system. Concept maps can help us ensure our understandings of the fundamental concepts in our domain are the same.
 
 ![Rabble Rouser Concept Map](./concept_map.png "Rabble Rouser Concept Map")
 
-Use the Rabble Rouser concept map when learning about the project, or introducing others to it, so we can have a common language and understanding when we speak about the project.
+The Rabble Rouser concept map will hopefully be useful when learning about the project, or introducing others to it.
 
 To update the concept map, you'll need [Graphviz](http://www.graphviz.org/) installed. Graphviz is a command line tool for drawing graphs. We're using the [DOT language](http://www.graphviz.org/content/dot-language) to describe our concepts. Concepts look like:
 
