@@ -1,0 +1,12 @@
+digraph G {
+  node [shape=rectangle]
+
+  member -> organisation [label=" joins "]
+  member -> branch [label=" belongs to "]
+  member -> organisation [label=" belongs to "]
+
+  admin -> branch [label=" manages "]
+  superadmin -> organisation [label=" manages "]
+
+  organisation -> branch [label=" is composed of "]
+}
