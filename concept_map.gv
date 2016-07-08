@@ -9,4 +9,16 @@ digraph G {
   superadmin -> organisation [label=" manages "]
 
   organisation -> branch [label=" is composed of "]
+
+  organising -> capability [label=" builds "]
+  organising -> member [label=" develops "]
+  organising -> responsibility [label=" distributes "]
+  organising -> "strong relationships" [label=" relies on "]
+  organising -> leader [label=" creates "]
+
+  mobilising -> capability [label=" uses "]
+  mobilising -> member [label=" recruits "]
+  mobilising -> "self-activation" [label=" relies on "]
+  mobilising -> responsibility [label=" centralises "]
+  mobilising -> "weak relationships" [label=" relies on "]
 }
