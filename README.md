@@ -4,6 +4,43 @@ Herein shall be found all the documentation that pertains to the Rabble Rouser p
 
 Documents that should live in here include anything related to overall architecture and infrastructure, project goals or anything that isn't specific to a particular app.
 
+## Our vision
+
+Rabble Rouser is for campaigning organisations who need tools to mobilise and organise their members and the community.
+
+Rabble Rouser will be offered for free, alllowing organisations to spend their time and money on the things that matter.
+
+It will have a membership registration core and a set of plugins.
+
+## Our goals
+
+### April 2017
+
+* We have built the stuff our users need the most
+* At least one closely allied organisation has adopted RR
+* We have sponsorship to fund development
+
+### April 2019
+
+* The community is building plugins for RR
+* Rabble Rouser is offered as a service
+* Lots of sponsors fund ongoing development
+* Rabble Rouser is adopted by lots of progressive campaigning organisations around the world
+
+### April 2021
+
+* Active and self-sustaining open source community
+* Rabble Rouser conference
+* Permanent Rabble Rouser team
+* Rabble Rouser is the de-facto choice for campaigning organisations
+
+## Our challenges
+
+* Distributed team
+* Competing priorities
+* Decision making
+* Maintaining commitment
+
 ## Rabble Rouser Domain Concepts
 
 This is one attempt to document Rabble Rouser's domain language. We're using a tool called [concept maps](http://cmap.ihmc.us/docs/theory-of-concept-maps). Concept maps only document the language we use and the relationship between concepts, they are not meant to describe behaviour of a system. Concept maps can help us ensure our understandings of the fundamental concepts in our domain are the same.
