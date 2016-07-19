@@ -1,6 +1,6 @@
 # Rabble Rouser docs
 
-Herein shall be found all the documentation that pertains to the Rabble Rouser project as a whole. Documentation for Rabble Rouser apps should still be found in the relevant repos. 
+Here is all the documentation for the Rabble Rouser project as a whole. Documentation for individual Rabble Rouser apps should still be found in the relevant repos.
 
 Documents that should live in here include anything related to overall architecture and infrastructure, project goals or anything that isn't specific to a particular app.
 
@@ -10,7 +10,7 @@ Rabble Rouser is for campaigning organisations who need tools to mobilise and or
 
 Rabble Rouser will be offered for free, alllowing organisations to spend their time and money on the things that matter.
 
-It will have a membership registration core and a set of plugins.
+It will have a membership registration core and a set of plugins that perform other functions, eg. email campaigns.
 
 ## Our goals
 
@@ -43,7 +43,7 @@ It will have a membership registration core and a set of plugins.
 
 ## Rabble Rouser Domain Concepts
 
-This is one attempt to document Rabble Rouser's domain language. We're using a tool called [concept maps](http://cmap.ihmc.us/docs/theory-of-concept-maps). Concept maps only document the language we use and the relationship between concepts, they are not meant to describe behaviour of a system. Concept maps can help us ensure our understandings of the fundamental concepts in our domain are the same.
+This is one attempt to document Rabble Rouser's domain language. We're using a tool called [concept maps](http://cmap.ihmc.us/docs/theory-of-concept-maps). Concept maps only document the language we use and the relationship between concepts, they are not meant to describe behaviour of a system. Concept maps can help us ensure we all have the same understanding of the fundamental concepts in our domain.
 
 ![Rabble Rouser Concept Map](./concept_map.png "Rabble Rouser Concept Map")
 
@@ -53,7 +53,7 @@ To update the concept map, you'll need [Graphviz](http://www.graphviz.org/) inst
 
     member -> organisation [label=" joins "]
 
-Formatting graphs using graphviz can be bit painful, so to keep it simple, concepts are nodes linked with an arror `->`, and we name the edge that represents the relationship with a label `[label=" some label "]` (with a space on either side of the label text to ensure the output is a bit more legible).
+Formatting graphs using graphviz can be bit painful, so to keep it simple, concepts are nodes linked with an arrow `->`, and we name the edge that represents the relationship with a label `[label=" some label "]` (with a space on either side of the label text to ensure the output is a bit more legible).
 
 To rebuild the graph, try running:
 
@@ -63,12 +63,12 @@ If you make changes to the concept map, please commit the updated graphviz docum
 
 ## Rabble Rouser logos
 
-For now, logos live here too. There's a transparent `.png` which should cover most of your needs. If you need something else, there's a GIMP `.xcf` file that you can play with. 
+For now, logos live here too. There's a transparent `.png` which should cover most of your needs. If you need something else, there's a [GIMP](https://www.gimp.org/) `.xcf` file that you can play with.
 
 ## Rabble Rouser architectural principles:
 
 * apps should be able to be deployed independently and function alone or in concert
-* apps communicate asynchronously with each other through events (and only events)
+* apps communicate asynchronously with each other through events (and only events). Have a look at **event driven architecture** if you're not familiar.
 * apps should be written in whatever language seems right
 * all data must be encrypted at rest and in transit
 * the environment should be simple to deploy
