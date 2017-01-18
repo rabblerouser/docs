@@ -74,6 +74,6 @@ For now, logos live here too. There's a transparent `.png` which should cover mo
 * the environment should be simple to deploy
 * the environment should be as secure as we can make it
 * the event store is the source of truth
-* the environment should be as cheap as possible to run for small organisations, but can scale up when necessary
+* twe value making the environment resiliant and easy to change over keeping costs down
 
 All technical decisions should be filtered through these principles.
