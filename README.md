@@ -8,7 +8,7 @@ Documents that should live in here include anything related to overall architect
 
 Rabble Rouser is for campaigning organisations who need tools to mobilise and organise their members and the community.
 
-Rabble Rouser will be offered for free, alllowing organisations to spend their time and money on the things that matter.
+Rabble Rouser will be offered for free, allowing organisations to spend their time and money on the things that matter.
 
 It will have a membership registration core and a set of plugins that perform other functions, eg. email campaigns.
 
