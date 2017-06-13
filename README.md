@@ -1,3 +1,5 @@
 # Rabble Rouser docs
 
-This repository stores all the product documentation for Rabble Rouser. [Check it out via the wiki](https://github.com/rabblerouser/docs/wiki).
+This repository stores all our product documentation for Rabble Rouser.
+
+You can read it all via the wiki [here](https://github.com/rabblerouser/docs/wiki). Have fun!
